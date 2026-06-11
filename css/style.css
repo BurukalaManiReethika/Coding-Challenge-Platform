@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#222;
+    transition:0.3s;
+}
+
+header{
+    background:#111827;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+nav a:hover{
+    color:#00d4ff;
+}
+
+#themeBtn{
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    margin-bottom:25px;
+    font-size:18px;
+}
+
+.btn{
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:8px;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.card h3{
+    font-size:40px;
+    color:#2563eb;
+}
+
+.daily{
+    padding:40px;
+    text-align:center;
+}
+
+.daily-card{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.daily-card h3{
+    margin-bottom:15px;
+}
+
+.daily-card p{
+    margin-bottom:20px;
+}
+
+.badges{
+    padding:40px;
+    text-align:center;
+}
+
+.badge-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.badge{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    min-width:150px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#111827;
+    color:white;
+    margin-top:40px;
+}
+
+/* Dark Mode */
+
+.dark{
+    background:#0f172a;
+    color:white;
+}
+
+.dark .card,
+.dark .badge,
+.dark .daily-card{
+    background:#1e293b;
+    color:white;
+}
+
+.dark .btn{
+    background:#0ea5e9;
+}
+
+@media(max-width:768px){
+
+    .container{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .hero h2{
+        font-size:32px;
+    }
+
+}
