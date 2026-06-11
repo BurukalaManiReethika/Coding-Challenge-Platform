@@ -1,0 +1,80 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>💻 Coding Challenge</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="challenges.html">Challenges</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+
+        <button id="themeBtn">🌙 Dark Mode</button>
+    </div>
+</header>
+
+<section class="problem-section">
+
+    <div class="problem-card">
+
+        <h2 id="problemTitle">Loading...</h2>
+
+        <span id="problemDifficulty"></span>
+
+        <p id="problemDescription"></p>
+
+        <div class="example-box">
+            <h3>Example</h3>
+
+            <pre id="exampleText">
+Input: nums = [2,7,11,15], target = 9
+
+Output: [0,1]
+            </pre>
+        </div>
+
+        <div class="editor-container">
+
+            <h3>Your Solution</h3>
+
+            <textarea
+                id="codeEditor"
+                placeholder="Write your code here..."
+            ></textarea>
+
+            <div class="button-group">
+
+                <button id="runBtn" class="btn">
+                    ▶ Run Code
+                </button>
+
+                <button id="submitBtn" class="btn">
+                    ✅ Submit Solution
+                </button>
+
+            </div>
+
+        </div>
+
+        <div id="outputBox" class="output-box">
+            Output will appear here...
+        </div>
+
+    </div>
+
+</section>
+
+<script src="js/challenge.js"></script>
+
+</body>
+</html>
