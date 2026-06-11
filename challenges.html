@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenges - Coding Challenge Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>📚 Challenges</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="challenges.html">Challenges</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+
+        <button id="themeBtn">🌙 Dark Mode</button>
+    </div>
+</header>
+
+<section class="hero">
+    <h2>Problem Library</h2>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search problems..."
+        class="search-box"
+    >
+
+    <div class="filters">
+        <button class="filter-btn" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Easy">Easy</button>
+        <button class="filter-btn" data-filter="Medium">Medium</button>
+        <button class="filter-btn" data-filter="Hard">Hard</button>
+    </div>
+</section>
+
+<section id="challengeContainer" class="challenge-grid">
+</section>
+
+<script src="js/challenges.js"></script>
+
+</body>
+</html>
