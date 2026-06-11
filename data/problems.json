@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "description": "Find two numbers that add up to target."
+  },
+  {
+    "id": 2,
+    "title": "Palindrome Number",
+    "difficulty": "Easy",
+    "description": "Determine whether an integer is a palindrome."
+  },
+  {
+    "id": 3,
+    "title": "FizzBuzz",
+    "difficulty": "Easy",
+    "description": "Print numbers with FizzBuzz rules."
+  },
+  {
+    "id": 4,
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "description": "Check if parentheses are valid."
+  },
+  {
+    "id": 5,
+    "title": "Merge Sorted Arrays",
+    "difficulty": "Easy",
+    "description": "Merge two sorted arrays."
+  },
+  {
+    "id": 6,
+    "title": "Longest Substring",
+    "difficulty": "Medium",
+    "description": "Find longest substring without repeating characters."
+  },
+  {
+    "id": 7,
+    "title": "Container With Most Water",
+    "difficulty": "Medium",
+    "description": "Find maximum water container."
+  },
+  {
+    "id": 8,
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "description": "Group words that are anagrams."
+  },
+  {
+    "id": 9,
+    "title": "Product Except Self",
+    "difficulty": "Medium",
+    "description": "Return product array except self."
+  },
+  {
+    "id": 10,
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "description": "Find all unique triplets that sum to zero."
+  },
+  {
+    "id": 11,
+    "title": "Median of Two Arrays",
+    "difficulty": "Hard",
+    "description": "Find median of two sorted arrays."
+  },
+  {
+    "id": 12,
+    "title": "N Queens",
+    "difficulty": "Hard",
+    "description": "Place queens on chessboard safely."
+  },
+  {
+    "id": 13,
+    "title": "Sudoku Solver",
+    "difficulty": "Hard",
+    "description": "Solve a Sudoku puzzle."
+  },
+  {
+    "id": 14,
+    "title": "Word Ladder",
+    "difficulty": "Hard",
+    "description": "Transform one word into another."
+  },
+  {
+    "id": 15,
+    "title": "Regular Expression Matching",
+    "difficulty": "Hard",
+    "description": "Implement regex matching."
+  }
+]
