@@ -55,6 +55,52 @@ nav a:hover{
     margin-bottom:25px;
     font-size:18px;
 }
+.search-box{
+    width:300px;
+    max-width:90%;
+    padding:12px;
+    margin-top:20px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+.filters{
+    margin-top:20px;
+}
+
+.filter-btn{
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    margin:5px;
+    cursor:pointer;
+}
+
+.challenge-grid{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    padding:40px;
+}
+
+.difficulty{
+    padding:5px 10px;
+    border-radius:6px;
+    color:white;
+}
+
+.Easy{
+    background:green;
+}
+
+.Medium{
+    background:orange;
+}
+
+.Hard{
+    background:red;
+}
 
 .btn{
     background:#2563eb;
